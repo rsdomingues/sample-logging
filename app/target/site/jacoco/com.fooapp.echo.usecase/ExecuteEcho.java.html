@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ExecuteEcho.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">The Great FooApp Echo</a> &gt; <a href="index.source.html" class="el_package">com.fooapp.echo.usecase</a> &gt; <span class="el_source">ExecuteEcho.java</span></div><h1>ExecuteEcho.java</h1><pre class="source lang-java linenums">package com.fooapp.echo.usecase;
+
+import com.fooapp.echo.domain.Echo;
+import lombok.extern.slf4j.Slf4j;
+import net.logstash.logback.argument.StructuredArguments;
+import org.springframework.stereotype.Component;
+
+import static com.google.common.base.Preconditions.checkArgument;
+
+<span class="fc" id="L10">@Slf4j</span>
+@Component
+public class ExecuteEcho {
+
+<span class="fc" id="L14">    public ExecuteEcho() {</span>
+<span class="fc" id="L15">    }</span>
+
+    public Echo execute(String sentence) {
+<span class="fc bfc" id="L18" title="All 2 branches covered.">        checkArgument(sentence != null, &quot;this is a bad word&quot;);</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        checkArgument(!sentence.contains(&quot;bar&quot;), &quot;bar is a bad word&quot;);</span>
+
+<span class="fc" id="L21">        log.info(&quot;Executing echo for sentence '{}'&quot;, StructuredArguments.value(&quot;sentence&quot;, sentence));</span>
+
+<span class="fc" id="L23">        return Echo.builder()</span>
+<span class="fc" id="L24">                .sentence(sentence)</span>
+<span class="fc" id="L25">                .echoSentence(sentence)</span>
+<span class="fc" id="L26">                .cool(sentence.contains(&quot;foo&quot;))</span>
+<span class="fc" id="L27">                .build();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>

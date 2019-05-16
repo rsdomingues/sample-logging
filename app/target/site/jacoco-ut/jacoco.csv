@@ -1,0 +1,31 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+The Great FooApp Echo,com.fooapp.echo.conf.web,CorsConfiguration,8,0,0,0,2,0,2,0,2,0
+The Great FooApp Echo,com.fooapp.echo.conf.web,WebConfiguration.new DeferredResultProcessingInterceptorAdapter() {...},17,0,0,0,4,0,2,0,2,0
+The Great FooApp Echo,com.fooapp.echo.conf.web,WebConfiguration,53,0,2,0,13,0,5,0,4,0
+The Great FooApp Echo,com.fooapp.echo.conf.web,CorsConfiguration.new WebMvcConfigurerAdapter() {...},11,0,0,0,3,0,2,0,2,0
+The Great FooApp Echo,com.fooapp.echo.conf.log,LogKey,9,36,0,0,0,4,2,3,2,3
+The Great FooApp Echo,com.fooapp.echo.gateway.http,EchoController,0,34,0,0,0,11,0,3,0,3
+The Great FooApp Echo,com.fooapp.echo.gateway.http,CartController,0,35,0,0,0,8,0,3,0,3
+The Great FooApp Echo,com.fooapp.echo.gateway.http,CustomExceptionHandler,0,48,0,0,0,8,0,5,0,5
+The Great FooApp Echo,com.fooapp.echo.usecase,AddItemToCart,0,117,0,6,0,25,0,7,0,4
+The Great FooApp Echo,com.fooapp.echo.usecase,NewCart,0,19,0,0,0,7,0,3,0,3
+The Great FooApp Echo,com.fooapp.echo.usecase,ValidateItem,12,130,1,3,1,21,1,4,0,3
+The Great FooApp Echo,com.fooapp.echo.usecase,ExecuteEcho,0,41,0,4,0,11,0,5,0,3
+The Great FooApp Echo,com.fooapp.echo.conf,AppProperties.Async,83,0,14,0,2,0,14,0,7,0
+The Great FooApp Echo,com.fooapp.echo.conf,AppProperties,11,0,0,0,3,0,2,0,2,0
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,EchoRequest.EchoRequestBuilder,27,0,0,0,1,0,4,0,4,0
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,ErrorResponse.ErrorResponseBuilder,50,0,0,0,1,0,6,0,6,0
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,EchoRequest,8,12,0,0,2,3,2,3,2,3
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,ErrorResponse,25,18,0,0,9,7,4,4,4,4
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,EchoResponse.EchoResponseBuilder,17,22,0,0,0,1,1,4,1,4
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,ErrorField,139,0,22,0,8,0,22,0,11,0
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,CartRequest,0,17,0,0,0,4,0,5,0,5
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,EchoResponse,11,19,0,0,2,4,3,4,3,4
+The Great FooApp Echo,com.fooapp.echo.gateway.http.jsons,ErrorField.ErrorFieldBuilder,39,0,0,0,1,0,5,0,5,0
+The Great FooApp Echo,com.fooapp.echo.domain,Item,9,98,6,8,0,7,5,13,0,11
+The Great FooApp Echo,com.fooapp.echo.domain,Echo,12,28,0,0,1,6,3,6,3,6
+The Great FooApp Echo,com.fooapp.echo.domain,Cart,8,54,0,0,0,8,2,8,2,8
+The Great FooApp Echo,com.fooapp.echo.domain,Echo.EchoBuilder,22,29,0,0,0,1,1,5,1,5
+The Great FooApp Echo,com.fooapp.echo.domain,Cart.CartBuilder,22,28,0,0,0,1,1,5,1,5
+The Great FooApp Echo,com.fooapp.echo.conf.springfox,SpringfoxConfig,36,0,0,0,13,0,4,0,4,0
+The Great FooApp Echo,com.fooapp,FooApplication,8,0,0,0,3,0,2,0,2,0
