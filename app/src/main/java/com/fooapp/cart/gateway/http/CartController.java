@@ -33,7 +33,7 @@ public class CartController {
         this.addItemToCart = addItemToCart;
     }
 
-    @ApiOperation(value = "Echo request")
+    @ApiOperation(value = "Add Item to Cart")
     @ApiResponses(
             value = {
                     @ApiResponse(code = 200, message = "Item add"),
