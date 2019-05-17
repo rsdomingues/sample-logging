@@ -2,17 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1197bf1c-e4cb-4504-aa5f-0721e902969c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ff4j_ff4j_aop_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ff4j_ff4j_core_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ff4j_ff4j_store_redis_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ff4j_ff4j_utils_json_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ff4j_ff4j_web_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_jansi_jansi_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_16_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/ff4j/FF4jConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/ff4j/Features.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/redis/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/CartGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/CartGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/gateway/CartGatewayImplSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/EchoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ExecuteEcho.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ExecuteEchoSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/EchoControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/EchoRequestTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/EchoTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spock/com.fooapp.echo.usecase.ExecuteEchoSpec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fooapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fooapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/AppProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/log/LogKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/log/LogKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/springfox/SpringfoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/springfox/SpringfoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/web/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/web/CorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/web/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/web/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Echo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Echo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/CustomExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/CartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/CartRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/EchoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/EchoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/EchoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/EchoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/ErrorField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/ErrorField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/AddItemToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/AddItemToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/NewCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/NewCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/ValidateItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/AddItemToCartSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/NewCartSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/NewCartSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/ValidateItemSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/AbstractHttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/AbstractHttpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CartControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CustomExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CustomExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CustomExceptionHandlerTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CustomExceptionHandlerTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/conf/AbstractHttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/conf/AbstractHttpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartRequestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/CartRequestTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/CartTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/ItemTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/ItemTemplate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,10 +86,49 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/AddItemToCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="437">
+              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2038#2039#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/springfox/SpringfoxConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+              <folding>
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/AddItemToCartSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="e#35#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/gateway/CartGatewayImplSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
               <folding>
                 <element signature="e#33#77#0" expanded="true" />
               </folding>
@@ -46,88 +137,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/ValidateItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="285">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding>
-                <element signature="e#33#77#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/NewCartSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/1.1-groovy-2.4/spock-core-1.1-groovy-2.4.jar!/org/spockframework/util/ReflectionUtil.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="201" selection-start-line="201" selection-end-line="201" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/AddItemToCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CustomExceptionHandlerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/ItemTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartTemplate.java">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/ValidateItemSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+              <folding>
+                <element signature="e#33#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/CartTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/ItemTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/AbstractHttpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -137,6 +204,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -144,6 +213,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Apple</find>
+      <find>ff4</find>
+      <find>port</find>
+      <find>moc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,7 +246,33 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/ItemTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/ff4j/FF4jConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/CartGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/redis/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/repository/CartRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/CartGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/CartGatewayImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/ff4j/Features.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/AddItemToCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/springfox/SpringfoxConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/ItemTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/CartTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/CartGatewayImplSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/gateway/CartGatewayImplSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/AddItemToCartSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/AbstractHttpTest.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/gateway/CartGatewayImplSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/ValidateItemSpec.groovy" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -230,7 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fooapp" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
@@ -239,7 +337,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fooapp" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fooapp" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="springfox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fooapp" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fooapp" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fooapp" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,15 +390,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fooapp" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
               <item name="usecase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +412,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
               <item name="usecase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,7 +445,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,6 +473,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -325,84 +497,89 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.groovy in fooapp">
-    <configuration name="AddItemToCartSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CartGatewayImplSpec">
+    <configuration name="FooApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fooapp.FooApplication" />
       <module name="fooapp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fooapp.echo.usecase.*" />
+          <option name="PATTERN" value="com.fooapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fooapp.echo.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.fooapp.echo.usecase.AddItemToCartSpec" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddItemToCartSpec (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fooapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fooapp.cart.conf.ff4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fooapp.cart.usecase" />
+      <option name="MAIN_CLASS_NAME" value="com.fooapp.cart.conf.ff4j.AddItemToCartSpec" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddItemToCartSpec.Add item to cart with matching itens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartGatewayImplSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fooapp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fooapp.echo.usecase.*" />
+          <option name="PATTERN" value="com.fooapp.cart.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fooapp.echo.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.fooapp.echo.usecase.AddItemToCartSpec" />
-      <option name="METHOD_NAME" value="Add item to cart with matching itens" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddItemToCartSpec.Add item to cart with multiple itens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fooapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fooapp.echo.usecase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fooapp.echo.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.fooapp.echo.usecase.AddItemToCartSpec" />
-      <option name="METHOD_NAME" value="Add item to cart with multiple itens" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateItemSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fooapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fooapp.echo.usecase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fooapp.echo.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.fooapp.echo.usecase.ValidateItemSpec" />
+      <option name="PACKAGE_NAME" value="com.fooapp.cart.gateway" />
+      <option name="MAIN_CLASS_NAME" value="com.fooapp.cart.gateway.CartGatewayImplSpec" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="groovy in fooapp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartGatewayImplSpec.Get cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fooapp" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/groovy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fooapp.cart.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fooapp.cart.gateway" />
+      <option name="MAIN_CLASS_NAME" value="com.fooapp.cart.gateway.CartGatewayImplSpec" />
+      <option name="METHOD_NAME" value="Get cart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartGatewayImplSpec.Save cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fooapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fooapp.cart.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fooapp.cart.gateway" />
+      <option name="MAIN_CLASS_NAME" value="com.fooapp.cart.gateway.CartGatewayImplSpec" />
+      <option name="METHOD_NAME" value="Save cart" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.groovy in fooapp" />
-        <item itemvalue="JUnit.ValidateItemSpec" />
-        <item itemvalue="JUnit.AddItemToCartSpec" />
-        <item itemvalue="JUnit.AddItemToCartSpec.Add item to cart with matching itens" />
-        <item itemvalue="JUnit.AddItemToCartSpec.Add item to cart with multiple itens" />
+        <item itemvalue="JUnit.CartGatewayImplSpec" />
+        <item itemvalue="JUnit.CartGatewayImplSpec.Get cart" />
+        <item itemvalue="JUnit.CartGatewayImplSpec.Save cart" />
+        <item itemvalue="JUnit.AddItemToCartSpec (1)" />
+        <item itemvalue="Application.FooApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -420,57 +597,57 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 12m 53s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="AddItemToCartSpec_(1) - 2019.05.17 at 11h 31m 36s.xml">
+      <configuration name="AddItemToCartSpec (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 14m 50s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="AddItemToCartSpec_(1) - 2019.05.17 at 11h 31m 57s.xml">
+      <configuration name="AddItemToCartSpec (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 16m 19s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="AddItemToCartSpec_(1) - 2019.05.17 at 11h 32m 19s.xml">
+      <configuration name="AddItemToCartSpec (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 16m 53s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="AddItemToCartSpec_(1) - 2019.05.17 at 11h 34m 23s.xml">
+      <configuration name="AddItemToCartSpec (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 17m 29s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="CartGatewayImplSpec_Save_cart - 2019.05.17 at 11h 43m 29s.xml">
+      <configuration name="CartGatewayImplSpec.Save cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 19m 29s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="CartGatewayImplSpec_Get_cart - 2019.05.17 at 11h 45m 10s.xml">
+      <configuration name="CartGatewayImplSpec.Get cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 19m 53s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
+    <history-entry file="CartGatewayImplSpec_Get_cart - 2019.05.17 at 11h 45m 31s.xml">
+      <configuration name="CartGatewayImplSpec.Get cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidateItemSpec - 2019.05.15 at 18h 21m 43s.xml">
-      <configuration name="ValidateItemSpec" configurationId="JUnit" />
+    <history-entry file="CartGatewayImplSpec_Get_cart - 2019.05.17 at 11h 46m 59s.xml">
+      <configuration name="CartGatewayImplSpec.Get cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidateItemSpec - 2019.05.15 at 18h 21m 55s.xml">
-      <configuration name="ValidateItemSpec" configurationId="JUnit" />
+    <history-entry file="CartGatewayImplSpec_Get_cart - 2019.05.17 at 11h 47m 39s.xml">
+      <configuration name="CartGatewayImplSpec.Get cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="groovy_in_fooapp - 2019.05.15 at 18h 22m 36s.xml">
-      <configuration name="groovy in fooapp" configurationId="JUnit" />
+    <history-entry file="CartGatewayImplSpec - 2019.05.17 at 11h 48m 10s.xml">
+      <configuration name="CartGatewayImplSpec" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="2560" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.12192216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.21604449" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50076103" side_tool="true" weight="0.18742369" />
-      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" weight="0.32871288" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.319802" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.319802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -486,7 +663,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CartControllerTest.java</url>
           <line>80</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -501,9 +678,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/FooApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -518,14 +692,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Echo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Echo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/EchoRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/EchoRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -543,32 +717,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/web/CorsConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/web/CorsConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/conf/web/WebConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/web/WebConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
@@ -582,27 +744,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/CustomExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/CustomExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/ErrorResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/ErrorResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,7 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/CartRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/jsons/CartRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -637,14 +789,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CartControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="51" column="84" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartRequestTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/CartRequestTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -665,24 +817,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CustomExceptionHandlerTestController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CustomExceptionHandlerTestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CustomExceptionHandlerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/CustomExceptionHandlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
-          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/NewCartSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -700,17 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/NewCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="30" />
@@ -727,59 +862,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/AddItemToCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/NewCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/ItemTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="39" />
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#33#77#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="274" column="42" selection-start-line="274" selection-start-column="42" selection-end-line="274" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#33#77#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="77" column="66" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ff4j/ff4j-store-redis/1.7.2/ff4j-store-redis-1.7.2.jar!/org/ff4j/redis/RedisConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="870">
+          <caret line="70" column="46" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/core/RedisHash.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/redis/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/repository/CartRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/CartGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/domain/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/CartGatewayImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/ff4j/FF4jConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/ff4j/Features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/gateway/http/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/AddItemToCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/conf/springfox/SpringfoxConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/CartTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/AddItemToCartSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/NewCartSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/templates/ItemTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/cart/gateway/http/AbstractHttpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/gateway/CartGatewayImplSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="e#33#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/cart/usecase/ValidateItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/cart/usecase/ValidateItemSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <element signature="e#33#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
