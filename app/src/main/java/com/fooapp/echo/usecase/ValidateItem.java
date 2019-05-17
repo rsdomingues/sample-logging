@@ -25,7 +25,7 @@ public class ValidateItem {
 
     public void execute(Item item) {
         checkArgument(item != null, "Invalid item");
-        log.info("checking item with sku:{}, amout:{} and price:{}", value("sku", item.getSku()),
+        log.info("checking item with sku:{}, amount:{} and price:{}", value("sku", item.getSku()),
                 value("amount", item.getAmount()),
                 value("unitPrice", item.getUnitPrice()));
 

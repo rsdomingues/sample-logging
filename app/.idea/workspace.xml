@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1197bf1c-e4cb-4504-aa5f-0721e902969c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/CartRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/AddItemToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/NewCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/NewCartSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/ItemTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/EchoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ExecuteEcho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ExecuteEchoSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/EchoControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/EchoRequestTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/EchoTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spock/com.fooapp.echo.usecase.ExecuteEchoSpec.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +22,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -32,13 +33,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="e#33#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
+              <folding>
+                <element signature="e#33#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/CustomExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/gateway/http/jsons/ErrorResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/domain/Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/conf/CartControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java" />
@@ -149,12 +173,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/CartTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fooapp/echo/templates/ItemTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/AddItemToCartSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,17 +250,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fooapp" type="462c0819:PsiDirectoryNode" />
               <item name="echo" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="jsons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fooapp" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
               <item name="usecase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,15 +295,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="echo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fooapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -296,6 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -413,15 +420,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddItemToCartSpec_Add_item_to_cart_with_multiple_itens - 2019.05.15 at 18h 08m 12s.xml">
-      <configuration name="AddItemToCartSpec.Add item to cart with multiple itens" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddItemToCartSpec_Add_item_to_cart_with_matching_itens - 2019.05.15 at 18h 11m 31s.xml">
-      <configuration name="AddItemToCartSpec.Add item to cart with matching itens" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 11m 39s.xml">
-      <configuration name="AddItemToCartSpec" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 12m 53s.xml">
       <configuration name="AddItemToCartSpec" configurationId="JUnit" />
     </history-entry>
@@ -443,12 +441,21 @@
     <history-entry file="AddItemToCartSpec - 2019.05.15 at 18h 19m 53s.xml">
       <configuration name="AddItemToCartSpec" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ValidateItemSpec - 2019.05.15 at 18h 21m 43s.xml">
+      <configuration name="ValidateItemSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateItemSpec - 2019.05.15 at 18h 21m 55s.xml">
+      <configuration name="ValidateItemSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="groovy_in_fooapp - 2019.05.15 at 18h 22m 36s.xml">
+      <configuration name="groovy in fooapp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="1440" y="0" width="2560" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.18742369" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.12192216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,15 +463,16 @@
       <window_info id="Favorites" order="5" sideWeight="0.50076103" side_tool="true" weight="0.18742369" />
       <window_info anchor="bottom" id="Messages" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.319802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -479,7 +487,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CartControllerTest.java</url>
-          <line>85</line>
+          <line>80</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -657,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fooapp/echo/gateway/http/CustomExceptionHandlerTestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -699,16 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="60" />
-          <folding>
-            <element signature="e#33#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,6 +760,26 @@
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="e#33#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/fooapp/echo/usecase/ValidateItemSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#33#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fooapp/echo/usecase/ValidateItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
