@@ -58,7 +58,8 @@ services:
       - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
 
   app:
-    image: demo/cart:4.0
+    build: ../app
+    image: demo/cart:5.1
     depends_on: 
       apmserver:
         condition: service_healthy
