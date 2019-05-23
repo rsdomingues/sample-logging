@@ -11,69 +11,53 @@
         </encoder>
     </appender>
 
-
-    <if condition='isDefined("GRAYLOG_HOST")'>
-        <then>
-            <property name="GRAYLOG_HOST" value="${GRAYLOG_HOST}"/>
-            <property name="GRAYLOG_PORT" value="${GRAYLOG_PORT}"/>
-            <property name="APP_ENV" value="${APP_ENV}"/>
-
-            <appender name="DEFAULT_GRAYLOG_UDP_APPENDER" class="me.moocar.logbackgelf.GelfUDPAppender">
-                <remoteHost>${GRAYLOG_HOST}</remoteHost>
-                <port>${GRAYLOG_PORT}</port>
-                <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
-                    <providers>
-                        <loggerName/>
-                        <threadName/>
-                        <message/>
-                        <arguments/>
-                        <version/>
-                        <stackTrace/>
-                        <pattern>
-                            <pattern>
-                                {
-                                "logLevel": "%level",
-                                "facility": "GELF",
-                                "source": "${HOSTNAME}",
-                                "app_env": "${APP_ENV}",
-                                "application_name": "${APP_NAME}",
-                                "trace": "%X{X-B3-TraceId:-}",
-                                "span": "%X{X-B3-SpanId:-}",
-                                "parent": "%X{X-B3-ParentSpanId:-}"
-                                }
-                            </pattern>
-                        </pattern>
-                    </providers>
-                </encoder>
-            </appender>
-        </then>
-    </if>
+    <appender name="ELASTIC" class="com.fooapp.cart.conf.log.StructuredArgumentsElasticsearchAppender">
+        <url>http://elasticsearch:9200/_bulk</url>
+        <index>cart-%date{yyyy-MM}</index>
+        <type>tester</type>
+        <includeMdc>true</includeMdc>
+        <properties>
+            <property>
+                <name>host</name>
+                <value>${HOSTNAME}</value>
+                <allowEmpty>false</allowEmpty>
+            </property>
+            <property>
+                <name>severity</name>
+                <value>%level</value>
+            </property>
+            <property>
+                <name>thread</name>
+                <value>%thread</value>
+            </property>
+            <property>
+                <name>stacktrace</name>
+                <value>%ex</value>
+            </property>
+            <property>
+                <name>logger</name>
+                <value>%logger</value>
+            </property>
+        </properties>
+        <headers>
+            <header>
+                <name>Content-Type</name>
+                <value>application/x-ndjson</value>
+            </header>
+        </headers>
+    </appender>
 
     <root level="INFO">
-        <appender-ref ref="STDOUT"/>
-        <if condition='isDefined("GRAYLOG_HOST")'>
-            <then>
-                <appender-ref ref="DEFAULT_GRAYLOG_UDP_APPENDER"/>
-            </then>
-        </if>
-    </root>
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="ELASTIC"/>
+</root>
 
-    <logger name="com.fooapp" level="DEBUG" additivity="false">
-        <appender-ref ref="STDOUT"/>
-        <if condition='isDefined("GRAYLOG_HOST")'>
-            <then>
-                <appender-ref ref="DEFAULT_GRAYLOG_UDP_APPENDER"/>
-            </then>
-        </if>
+    <logger name="com.fooapp.cart" level="INFO">
     </logger>
 
-    <logger name="com.netflix.hystrix.AbstractCommand" level="DEBUG" additivity="false">
+    <logger name="com.netflix.hystrix.AbstractCommand" level="DEBUG">
         <appender-ref ref="STDOUT"/>
-        <if condition='isDefined("GRAYLOG_HOST")'>
-            <then>
-                <appender-ref ref="DEFAULT_GRAYLOG_UDP_APPENDER"/>
-            </then>
-        </if>
+        <appender-ref ref="ELASTIC"/>
     </logger>
 
 </configuration>

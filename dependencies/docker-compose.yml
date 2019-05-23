@@ -1,5 +1,5 @@
 # Dynamo
-version: '2'
+version: '2.1'
 services:
   redis:
     image: redis:3.2.4
@@ -14,6 +14,11 @@ services:
       - fooappdependencies
     environment: 
       - discovery.type=single-node
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:9200"]
+        interval: 30s
+        timeout: 10s
+        retries: 5
     ports: 
       - 9200:9200
       - 9300:9300
@@ -21,36 +26,59 @@ services:
   kibana:
     image: docker.elastic.co/kibana/kibana:7.1.0
     depends_on: 
-      - elasticsearch
+      elasticsearch:
+        condition: service_healthy
     networks: 
       - fooappdependencies
     volumes:
       - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:5601"]
+        interval: 30s
+        timeout: 10s
+        retries: 5
     ports: 
       - 5601:5601
   
   apmserver:
     image: docker.elastic.co/apm/apm-server:7.1.0
     depends_on: 
-      - elasticsearch
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:8200"]
+        interval: 30s
+        timeout: 10s
+        retries: 5
     networks: 
       - fooappdependencies
+    ports: 
+      - 8200:8200
     volumes:
       - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
 
   app:
-    image: demo/cart:2.0
+    image: demo/cart:4.0
     depends_on: 
-      - redis
-      - elasticsearch
-      - apmserver
+      apmserver:
+        condition: service_healthy
     networks: 
       - fooappdependencies
     ports: 
       - 8080:8080
     environment: 
       - REDIS_SERVER=redis
-      - APM_SERVER=http://apmserver:8200
+  
+  heartbeat:
+    image: docker.elastic.co/beats/heartbeat:7.1.0
+    depends_on: 
+      kibana:
+        condition: service_healthy
+    networks: 
+      - fooappdependencies
+    environment: 
+      - setup.kibana.host=kibana:5601
+      - output.elasticsearch.hosts=["elasticsearch:9200"]
 
 networks:
   fooappdependencies:
