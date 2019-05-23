@@ -2,12 +2,6 @@ app:
   async:
     corePoolSize: 100
 
-payment:
-  ribbon:
-    ReadTimeout: 30000
-    ConnectTimeout: 30000
-    listOfServers: http://localhost:8083
-
 security:
   basic:
     enabled: false

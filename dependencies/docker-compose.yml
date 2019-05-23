@@ -1,6 +1,56 @@
 # Dynamo
-redis:
-  image: redis:3.2.4
-  container_name: redis
-  ports:
-    - "6379:6379"
+version: '2'
+services:
+  redis:
+    image: redis:3.2.4
+    networks: 
+      - fooappdependencies
+    ports:
+      - "6379:6379"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+    networks: 
+      - fooappdependencies
+    environment: 
+      - discovery.type=single-node
+    ports: 
+      - 9200:9200
+      - 9300:9300
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.1.0
+    depends_on: 
+      - elasticsearch
+    networks: 
+      - fooappdependencies
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+    ports: 
+      - 5601:5601
+  
+  apmserver:
+    image: docker.elastic.co/apm/apm-server:7.1.0
+    depends_on: 
+      - elasticsearch
+    networks: 
+      - fooappdependencies
+    volumes:
+      - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
+
+  app:
+    image: demo/cart:2.0
+    depends_on: 
+      - redis
+      - elasticsearch
+      - apmserver
+    networks: 
+      - fooappdependencies
+    ports: 
+      - 8080:8080
+    environment: 
+      - REDIS_SERVER=redis
+      - APM_SERVER=http://apmserver:8200
+
+networks:
+  fooappdependencies:
